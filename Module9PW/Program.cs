@@ -26,10 +26,10 @@ namespace Module9PW
             {
                 device.CopyData(dataSize);
             }
-            Console.WriteLine($"Total memory: {totalMemory} Gigabyte");
+            Console.WriteLine($"Total memory: {totalMemory} gigabyte");
             double copySpeed = 5;
             double copyTime = dataSize / copySpeed;
-            Console.WriteLine($"Time, to copy elements: {copyTime} sec");
+            Console.WriteLine($"Time, to copy elements: {copyTime} seconds");
             double totalDataSize = dataSize;
             foreach (var device in devices)
             {
